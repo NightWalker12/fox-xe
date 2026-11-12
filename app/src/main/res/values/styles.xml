@@ -1,0 +1,16 @@
+<resources>
+    <color name="cream">#FFF7EB</color>
+    <color name="paper">#F8F4ED</color>
+    <color name="brand">#A43A1B</color>
+
+    <style name="Theme.FoxXE.Base" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:colorAccent">@color/brand</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#213F34</item>
+        <item name="android:windowBackground">@drawable/legacy_splash</item>
+    </style>
+    <style name="Theme.FoxXE.Navigation" parent="Theme.FoxXE.Base" />
+    <style name="Theme.FoxXE" parent="Theme.FoxXE.Navigation" />
+</resources>

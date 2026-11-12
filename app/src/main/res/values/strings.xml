@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Лиса ХЕ</string>
+    <string name="subtitle">Калькулятор хлебных единиц</string>
+    <string name="product">Продукт</string>
+    <string name="product_hint">Найдите продукт</string>
+    <string name="show_products">Показать список продуктов</string>
+    <string name="catalog_help">Выберите продукт из списка</string>
+    <string name="catalog_empty">Ничего не найдено. Можно ввести данные с этикетки.</string>
+    <string name="catalog_unavailable">Каталог недоступен. Можно ввести данные с этикетки.</string>
+    <string name="catalog_carbs">%1$s г углеводов на 100 г</string>
+    <string name="enter_manually">Ввести углеводы вручную</string>
+    <string name="back_to_catalog">Выбрать продукт из каталога</string>
+    <string name="manual_label">Углеводы на 100 г продукта</string>
+    <string name="manual_help">Возьмите значение из строки «Углеводы» на этикетке.</string>
+    <string name="manual_error">Введите число от 0 до 100 г.</string>
+    <string name="weight_label">Вес порции</string>
+    <string name="weight_error">Введите вес больше 0 и до 1 000 000 г.</string>
+    <string name="weight_unit">г</string>
+    <string name="ratio_label">Граммов углеводов в 1 ХЕ</string>
+    <string name="ratio_option">%1$d г</string>
+    <string name="result_title">В вашей порции</string>
+    <string name="result_empty">— ХЕ</string>
+    <string name="result_value">%1$s ХЕ</string>
+    <string name="result_select_food">Выберите продукт и укажите вес порции.</string>
+    <string name="result_manual">Укажите углеводы на 100 г и вес порции.</string>
+    <string name="result_weight">Укажите вес порции.</string>
+    <string name="result_carbs">%1$s г углеводов в порции</string>
+    <string name="source_link">Источник · USDA FoodData Central</string>
+    <string name="estimate">Каталог содержит справочные значения. Для упакованного продукта используйте его этикетку.</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.FoxXE" parent="Theme.FoxXE.Navigation">
+        <item name="android:windowSplashScreenBackground">@color/cream</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/fox_splash</item>
+        <item name="android:windowBackground">@color/paper</item>
+    </style>
+</resources>
