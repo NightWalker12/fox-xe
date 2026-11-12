@@ -565,6 +565,8 @@ public final class MainActivity extends Activity {
             @Override
             @SuppressWarnings("unchecked")
             protected void publishResults(CharSequence constraint, FilterResults results) {
+                product.setDropDownHeight(results.count <= 3
+                        ? ViewGroup.LayoutParams.WRAP_CONTENT : dp(248));
                 setNotifyOnChange(false);
                 clear();
                 if (results.values != null) {
